@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation de vol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="page_reservation.html">Reservation</a></li>
+            <li><a href="page_menu_vol.html">Tableau de vols</a></li>
+            <li><a href="#">A Propos</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <h1 id="titre_reservation">Formulaire de reservation</h1>
+    <div class="div_formulaire">
+        <form action="">
+            <label for="nom">Nom:</label><br>
+            <input type="text" name="nom" id="nom"><br><br>
+            <label for="prenom">Prenom:</label><br>
+            <input type="text" name="prenom" id="prenom"><br><br>
+            <label for="email">Adresse Mail:</label><br>
+            <input type="text" name="email" id="email"><br><br>
+            <label for="num_phone">Numero telephone:</label><br>
+            <input type="text" name="num_phone" id="num_phone"><br><br>
+            <label for="num_passeport">Numero passeport:</label><br>
+            <input type="text" name="num_passeport" id="num_passeport"><br><br>
+            <label for="sexe">Sexe:</label>
+            <input type="radio" name="sexe" id="H">Homme
+            <input type="radio" name="sexe" id="F">Femme
+            <br><br>
+            <label for="numero_vol">Veuillez entrer le numero du vol souhaité:</label><br>
+            <input type="text" name="numero_vol" id="numero_vol"><br><br><br>
+            <button id="btn_proceder_paiement">Proceder au paiement</button>
+        </form>
+    </div>
+</body>
+</html>
